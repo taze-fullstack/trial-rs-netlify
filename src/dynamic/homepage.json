@@ -1,1 +1,11 @@
-{}
+{
+  "title": "Trial Title",
+  "intro": "Trial Markdown Intro Text",
+  "team": [
+    {
+      "name": "John Doe",
+      "position": "Assistant",
+      "photo": "/uploads/image.jpg"
+    }
+  ]
+}
