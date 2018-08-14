@@ -24,6 +24,14 @@ collections:
     files:
       - label: 'Homepage'
         name: 'homepage'
-        file: 'src/dynamic/homepage.yml'
+        file: 'src/dynamic/homepage.json'
         fields:
           - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Position, name: position, widget: string }
+              - { label: Photo, name: photo, widget: image }
