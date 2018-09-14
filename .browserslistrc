@@ -1,0 +1,10 @@
+# Browsers that we support
+
+> 0.5%
+last 2 versions
+Chrome >= 49
+Firefox >= 58
+Samsung >= 4
+ios_saf >= 10.2
+ie >= 10
+Safari >= 10
