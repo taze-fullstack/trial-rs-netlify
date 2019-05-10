@@ -8,9 +8,9 @@ export default withSiteData(() => (
   <div>
     <Head>
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <title>{cmsHomepage.title}</title>
     </Head>
     <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
     <img src={logoImg} alt="" />
-    <div>{cmsHomepage.title}</div>
   </div>
 ))

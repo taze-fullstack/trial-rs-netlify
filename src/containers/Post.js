@@ -1,5 +1,5 @@
 import React from 'react'
-import { withRouteData, Link } from 'react-static'
+import { withRouteData, Link, Head } from 'react-static'
 import Moment from 'react-moment'
 import Markdown from 'react-markdown'
 import breaks from 'remark-breaks'
@@ -9,6 +9,9 @@ export default withRouteData(({ post }) => {
   console.log(post)
   return (
   <div className="blog-post">
+    <Head>
+      <title>{post.data.title}</title>
+    </Head>
     <Link to="/blog/">{'<'} Back</Link>
     <br />
     <h3>{post.data.title}</h3>
