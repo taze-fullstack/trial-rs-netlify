@@ -17,17 +17,18 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-hot-loader": "^4.0.0-beta.21",
-    "react-markdown": "^3.1.0",
+    "react-markdown": "^4.0.8",
     "react-moment": "^0.7.0",
     "react-router": "^4.2.0",
-    "react-static": "^5.1.10"
+    "react-static": "^5.1.10",
+    "remark-breaks": "^1.0.2"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
     "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^2.1.1",
-    "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "serve": "^6.1.0"
   }

@@ -16,11 +16,11 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "MD One", name: "mdone", widget: "markdown"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "MD Two", name: "mdtwo", widget: "markdown"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Focus Keyword", name: "yoast_keyword", widget: "string" }
+      - { label: "Meta Description", name: "description", widget: "string" }
   - label: 'Pages'
     name: 'pages'
     files:
@@ -29,11 +29,5 @@ collections:
         file: 'src/dynamic/homepage.json'
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Intro, name: intro, widget: markdown }
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Position, name: position, widget: string }
-              - { label: Photo, name: photo, widget: image }
+          - { label: "Focus Keyword", name: "yoast_keyword", widget: "string" }
+          - { label: "Meta Description", name: "description", widget: "string" }
