@@ -31,5 +31,4 @@ collections:
         file: 'src/dynamic/homepage.json'
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: "Meta Title", name: "description", widget: "string" }
-          - { label: "Meta Description", name: "description", widget: "string" }
+          - { label: Description, name: description, widget: "string" }
