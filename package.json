@@ -10,7 +10,7 @@
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "gray-matter": "^3.1.1",
     "klaw": "^2.1.1",
     "moment": "^2.20.1",
